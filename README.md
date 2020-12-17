@@ -2,7 +2,7 @@
 
 **Mise en place**
 
-- Clonez le repository `git clone cookit-front-end-test-{votre_nom_de_famille}`
+- Fork and clone ce repository `git clone cookit-front-end-test-{votre_nom_de_famille}`
 - roulez `npm i` pour installer les modules node 
 - roulez `npm start` pour démarrer le projet
 
