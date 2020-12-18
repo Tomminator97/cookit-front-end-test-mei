@@ -31,6 +31,11 @@ exports[`<App /> should render and match the snapshot 1`] = `
     />
     <Route
       component={[Function]}
+      exact={true}
+      path="/confirmation"
+    />
+    <Route
+      component={[Function]}
     />
   </Switch>
   <Memo(GlobalStyleComponent) />
