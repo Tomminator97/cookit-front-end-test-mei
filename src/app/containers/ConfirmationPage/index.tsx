@@ -9,13 +9,11 @@ import { useEffect, useState } from 'react';
 
 export function ConfirmationPage() {
   const { t } = useTranslation();
-
-  const  {state}  = useLocation();
-  // const { email, postalCode} = state;
-  // const [info, setInfo] = useState(state);
-  
+ 
+  const  {state} = useLocation();
   useEffect(()=>{
     console.log(state);
+    
   }, []);
   return (
     <>
@@ -29,7 +27,7 @@ export function ConfirmationPage() {
       <NavBar />
       <PageWrapper>
       <p>{JSON.stringify(state)}</p>
-      {/* <p>{state.postalCode}</p> */}
+      
       </PageWrapper>
     </>
   );
