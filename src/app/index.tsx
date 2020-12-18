@@ -17,6 +17,7 @@ import { GlobalStyle } from '../styles/global-styles';
 import { HomePage } from './containers/HomePage/Loadable';
 import { NotFoundPage } from './containers/NotFoundPage/Loadable';
 import { Subscribe } from './containers/Subscribe/Loadable';
+import { ConfirmationPage } from './containers/ConfirmationPage/Loadable';
 
 export function App() {
   const { t, i18n } = useTranslation();
@@ -32,6 +33,7 @@ export function App() {
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
         <Route exact path={process.env.PUBLIC_URL + '/subscribe'} component={Subscribe} />
+        <Route exact path={process.env.PUBLIC_URL + '/confirmation'} component={ConfirmationPage} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />
